@@ -1,9 +1,6 @@
 #!/bin/bash
 
-
-
-required_packages_list="git ghostscript build-essential cmake libnetcdf-dev libgdal-dev libfftw3-dev libpcre3-dev"
-#required_packages_list="build-essential cmake gdal-bin gdal-dev gfortran ghostscript git gv libfftw3-3 libfftw3-dev libfftw3-dev libgdal-dev libmotif-dev libmotif4 libnetcdf-dev libnetcdf-dev libpcre3-dev libsdl-image1.2-dev libsdl1.2-dev libxp-dev mesa-common-dev netcdf-bin xorg-dev "
+required_packages_list="git ghostscript build-essential cmake gdal-bin gfortran gv libnetcdf-dev netcdf-bin libgdal-dev libfftw3-3 libfftw3-dev libpcre3-dev libmotif-dev libx11-dev freeglut3-dev"
 
 MB_INSTALL_PREFIX=$HOME/mb-system
 gmt_ver="5.4.5"
